@@ -1711,6 +1711,13 @@ section {
   height: 81vh;                /* Full viewport height */
 }
 
+@media (max-width: 768px) {
+  .about-img {
+    width: 100%;   /* full width on mobile */
+    height: 60vh;  /* adjust height so it’s not too tall */
+  }
+}
+
 .menu-item .menu-img {
   width: 100%;
   aspect-ratio: 4/3;      /* Adjust ratio as needed */
