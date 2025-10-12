@@ -1716,7 +1716,8 @@ section {
     width: 100%;   /* full width on mobile */
     max-height: 200px;  /* won’t grow taller than this */
     height: auto;
-  }
+}
+  
 }
 
 .menu-item .menu-img {
