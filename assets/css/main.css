@@ -1693,18 +1693,20 @@ section {
 }
 
 .about-img {
-  background-size: cover;       /* Make the image cover the div */
-  background-position: center;  /* Center the image */
-  background-repeat: no-repeat; /* No repeating */
-  width: 50%;                  /* Full width */
-  height: 81vh;                /* Full viewport height */
+  width: 50%;                /* desktop width */
+  height: 80vh;              /* desktop height */
+  background-size: cover;    /* cover the div */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
   .about-img {
-    width: 100%;   /* full width on mobile */
-    max-height: 100px;  /* won’t grow taller than this */
-    height: auto;
+    width: 100%;             /* full width on mobile */
+    height: 200px;           /* reasonable height for mobile */
+    max-height: 50vh;        /* won’t exceed half the viewport height */
+    background-size: cover;  /* keeps aspect ratio */
+    background-position: center;
 }
   
 }
