@@ -1704,6 +1704,7 @@ section {
   .about-img {
     width: 100%;   /* full width on mobile */
     max-height: 100px;  /* won’t grow taller than this */
+    height: auto;
 }
   
 }
