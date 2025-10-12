@@ -1714,7 +1714,8 @@ section {
 @media (max-width: 768px) {
   .about-img {
     width: 100%;   /* full width on mobile */
-    height: 40vh;  /* adjust height so it’s not too tall */
+    max-height: 200px;  /* won’t grow taller than this */
+    height: auto;
   }
 }
 
