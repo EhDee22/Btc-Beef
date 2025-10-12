@@ -1703,8 +1703,7 @@ section {
 @media (max-width: 768px) {
   .about-img {
     width: 100%;   /* full width on mobile */
-    max-height: 200px;  /* won’t grow taller than this */
-    height: auto;
+    max-height: 100px;  /* won’t grow taller than this */
 }
   
 }
