@@ -1704,7 +1704,6 @@ section {
   .about-img {
     width: 100%;             /* full width on mobile */
     height: 200px;           /* reasonable height for mobile */
-    max-height: 50vh;        /* won’t exceed half the viewport height */
     background-size: cover;  /* keeps aspect ratio */
     background-position: center;
 }
