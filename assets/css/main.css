@@ -1694,21 +1694,10 @@ section {
 
 .about-img {
   width: 50%;                /* desktop width */
-  height: 80vh;              /* desktop height */
+  height: 82vh;              /* desktop height */
   background-size: cover;    /* cover the div */
   background-position: center;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-  .about-img {
-    width: 100%;             /* full width on mobile */
-    height: 200px;           /* reasonable height for mobile */
-    max-height: 50vh;        /* won’t exceed half the viewport height */
-    background-size: cover;  /* keeps aspect ratio */
-    background-position: center;
-}
-  
 }
 
 .menu-item .menu-img {
